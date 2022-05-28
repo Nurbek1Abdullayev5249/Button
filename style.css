@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:500px;
+    margin: auto;
+}
+
+#frame{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    border-radius:  50%;
+    /* transition: 1s; */
+}
+.dot:nth-child(n){
+    background-color: red;
+}
+.dot:nth-child(2n){
+    background-color: darkred;
+}
+.dot:nth-child(3n){
+    background-color: rgb(20, 161, 103);
+}
+.dot:nth-child(4n){
+    background-color: rgb(86, 177, 33);
+}
+.dot:nth-child(5n){
+    background-color: rgb(71, 15, 175);
+}
